@@ -3,7 +3,9 @@ package helper
 func Calculator(a int, b int, operation string) int {
 	switch operation {
 	case "+":
-		return 0
+		return a + b
+	case "-":
+		return a - b
 
 	default:
 		return 0
