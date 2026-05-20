@@ -6,6 +6,10 @@ func Calculator(a int, b int, operation string) int {
 		return a + b
 	case "-":
 		return a - b
+	case "x":
+		return a * b
+	case "/":
+		return a / b
 
 	default:
 		return 0
